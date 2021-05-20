@@ -72,7 +72,7 @@ while True:
             # Either token has expired or something unexpected happen
             refresh_token = True
             print(r.text)
-        print("------------------------")
+    print("------------------------")
 
     if alert:
         # Alert the user by playing an audio file
